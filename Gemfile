@@ -15,13 +15,13 @@ gem 'jbuilder'
 gem 'redis'
 gem 'httparty'
 gem 'figaro'
-gem 'rename', '1.1.3', git: 'https://github.com/ryanckulp/rename' # remove this gem after use
 gem 'delayed' # delayed_job_active_record rails 7 fork: https://github.com/betterment/delayed
 gem 'metamagic' # easily insert metatags for SEO / opengraph
 gem 'rack-cors', :require => 'rack/cors'
 gem 'postmark-rails'
 gem 'devise'
 gem 'stripe'
+gem "ruby-openai"
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: %i[ mingw mswin x64_mingw jruby ]
